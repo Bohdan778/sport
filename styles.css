@@ -1,0 +1,129 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9ecef; /* Світлий фон для контрасту */
+  color: #212529; /* Темний колір тексту для читабельності */
+}
+
+.navbar {
+  background-color: #343a40; /* Темна панель навігації */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffcc00; /* Жовтий колір для логотипу */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Білий колір для тексту */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffcc00; /* Жовтий колір при наведенні */
+}
+
+section {
+  padding: 50px 0;
+  background-color: #ffffff; /* Білий фон для секцій */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легке тіньове оформлення */
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #ffcc00; /* Жовтий колір для заголовків */
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Всі літери великі для спортивного стилю */
+}
+
+.section-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555; /* Легкий сірий для тексту */
+}
+
+.section-text:hover {
+  color: #ffcc00; /* Жовтий колір при наведенні */
+}
+
+.btn-primary {
+  background-color: #ffcc00; /* Жовта кнопка */
+  border-color: #ffcc00;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #e6a800; /* Темніша жовта кнопка при наведенні */
+  border-color: #e6a800;
+}
+
+footer {
+  background-color: #343a40; /* Темний фон для футера */
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-contact {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.footer-contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: #ffcc00; /* Жовтий колір при наведенні на посилання */
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* Краї картинок округлені */
+}
+
+.carousel-inner .carousel-item img {
+  height: 500px; /* Встановлено висоту для картинок каруселі */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card {
+  border: none; /* Прибираємо межі у карток */
+  border-radius: 8px; /* Округлення кутів карток */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легка тінь */
+  transition: transform 0.3s ease-in-out; /* Анімація при наведенні */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Збільшення картки при наведенні */
+}
+
+.card-body {
+  background-color: #f1f1f1; /* Легкий сірий фон для карток */
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40; /* Темний колір для заголовків карток */
+}
+
+.card-text {
+  color: #666; /* Світлий колір для тексту карток */
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .nav-link {
+    color: #ffcc00; /* Жовтий колір для меню на малих екранах */
+  }
+  
+  .section-title {
+    font-size: 2.2rem; /* Менший розмір заголовка на мобільних пристроях */
+  }
+}
